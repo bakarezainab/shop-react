@@ -1,0 +1,426 @@
+/* mainpage.css */
+
+.header {
+  background: rgb(224, 215, 215);
+  color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  /* Reset default list styles */
+.horizontal-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Make list items display horizontally */
+.horizontal-menu li {
+  display: inline;
+  margin-right: 10px; /* Add spacing between menu items */
+}
+
+/* Style the links */
+.horizontal-menu a {
+  text-decoration: none; /* Remove underline from links */
+  padding: 5px 10px; /* Add padding to make links clickable */
+  border: 1px solid #333; /* Add borders for a button-like appearance */
+  background-color: #f0f0f0; /* Background color for buttons */
+  color: #333; /* Text color */
+}
+
+/* Hover effect for links */
+.horizontal-menu a:hover {
+  background-color: #333; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+  
+  /* h1 {
+    margin: 0;
+  } */
+
+  .fashion-home img {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    left: 0;
+    opacity: 60%;
+  }
+  
+  .fashion-home {
+    position: relative;
+    /* border: 2px solid red; */
+    background-color:red;
+    height: 600px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;   
+  }
+
+  .abs-1 {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    left: 0;
+  }
+
+  .abs-2 {
+    position: absolute;
+    color: #fff;
+    top: 30%;
+  }
+
+  .fashion-home div {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+  }  
+
+  .launches {
+    /* background-color: pink; */
+    height: 400px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    margin-top: 0;   
+  }
+
+  .new-arrivals {
+    background-color: #EAE1E1;
+    height: 600px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    margin-top: 0;   
+  }
+
+  .top-selling {
+    /* background-color: peachpuff; */
+    height: 500px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    margin-top: 0;   
+  }
+
+  .about-us {
+    background-color: #D9D9D9;
+    height: 550px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    margin-top: 0;   
+  }
+
+  .testimony {
+    background-color:#FF0000C7;
+    height: 400px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;   
+  }
+
+  .superior {
+    /* background-color: #000; */
+    height: 300px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    margin-top: 0;   
+  }
+
+  .stay-in {
+    background-color: rgba(217, 217, 217, 1);
+    height: 600px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    margin-top: 0;   
+  }
+
+  .shopping {
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;   
+  }
+
+  .footer {
+    background-color: #fff;
+    height: 70px;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    /* color: #fff; */
+    padding-top: 120px;
+  }
+
+  .collections {
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    font-size: large;    
+    padding: 40px;
+    text-align: center;
+  }
+
+.flex-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+  height: 200px; /* Set a desired height */
+  background-color: pink;  
+}
+
+.items {
+  border: 2px solid red;
+}
+
+#grid {
+  display: grid;
+  grid-template-rows: auto auto auto;  
+}
+
+#header-grid1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#launches-grid1 {
+  display: grid;
+  grid-template-columns: auto auto auto;  
+}
+
+#about-grid1 {
+  display: grid;
+  grid-template-columns: auto auto;  
+}
+
+#testimony-grid1 {
+  display: grid;
+  grid-template-rows: auto auto auto;  
+}
+
+#superior-grid1 {
+  display: grid;
+  grid-template-columns: auto auto auto;  
+}
+
+#stay-in1-grid1 {
+  display: grid;
+  grid-template-columns: auto auto;  
+}
+
+#shopping-grid1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;  
+  }
+
+#footer-grid1 {
+  display: grid;
+  grid-template-columns: auto auto;    
+}
+
+ul {
+  list-style: none;
+  line-height: 40px;
+  text-align: justify;
+}
+
+/* .shopping-grid1 > ol {
+  display: block;
+  text-decoration: dashed;
+} */
+
+/* .list1000 {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+} */
+
+
+.launches-grid2 {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-rows: auto auto auto;  
+}
+
+#arrivals-grid1, #selling-grid1 {
+  display: grid;
+  grid-template-columns: auto auto;    
+}
+
+.testimony ul {
+  /* text-align: center; */
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+.superior-grid1 {
+  /* border: 2px solid red; */
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 120px;  
+}
+
+.stay-in1-grid1 {
+  border: 2px solid red;
+  /* margin-top: 100px;
+  margin-left: 70px; */
+}
+
+.shopping-grid1 {
+  /* border: 2px solid red; */
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.footer-grid1 {
+  /* border: 2px solid red; */
+  margin-bottom: 0;
+  display: grid;
+}
+.footer-list1 li {
+  display: inline;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.footer-list2 li {
+  display: inline;
+  margin-right: 40px;
+  margin-left: 120px;
+}
+
+/* .footer-grid1 > ul {
+  display: inline;
+  margin-right: 10px;
+  color: pink;
+} */
+
+/* .header-grid1 {
+  border: 1px solid blue;
+} */
+
+.header-grid1 img, .header-grid1 button {
+  margin-top: 15px;
+}
+
+.header-grid1 ul {
+  margin-top: 5px;
+  margin-left: 25%;
+}
+
+.header-grid1 button {
+  background-color:rgba(255, 0, 0, 1);
+  
+}
+.header-grid1 button a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+
+.selling-grid1 {
+  /* border: 2px solid black; */
+}
+
+.about-grid1 {
+  /* border: 2px solid red; */
+}
+
+.testimony-grid1 {
+  /* border: 2px solid blue; */
+}
+
+
+#arrivals-grid2 {
+  display: grid;
+  grid-template-rows: auto auto;  
+  
+}
+
+#about-grid2 {
+  display: grid;
+  grid-template-rows: auto auto auto;  
+  
+}
+
+#selling-grid2 {
+  display: grid;
+  grid-template-rows: auto auto auto;  
+}
+
+.selling-grid2 {
+  /* border: 2px solid red; */
+}
+
+.about-grid2 {
+  /* border: 2px solid blue; */
+}
+
+.adilette-text {
+  text-align: center;
+  /* border: 1px solid red; */
+  height: 200px;
+  width: 500px;
+
+}
+
+.arrivals1 {
+  /* border: 2px solid black; */
+}
+
+.arrivals-grid2 {
+  /* border: 2px solid red; */
+}
+.arrival-text, .selling-text {
+  text-align: center;
+  /* color: #000; */
+}
+.launch1 {
+  /* border: 2px solid black; */
+}
+
+.launch2 {
+  /* border: 2px solid yellow; */
+}
+
+
+
+.item {
+  border: 1px solid blue;
+}
+
+/* .item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+} */
+
+
+
+
+
+
+/* #container {
+  display: flex;
+  flex-basis: 100%;
+}
+
+#container div {
+  border: 1px solid red;
+} */
